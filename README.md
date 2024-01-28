@@ -11,7 +11,7 @@ See https://platform.untis.at/HTML/WebHelp/de/untis/index.html -> search for "ex
 ## Usage
 
 ```
-from untis_dif_file_writer import write_dif_file, write_xml_file, write_all_dif_files, UntisFileNumber
+from untis_dif_file_writer.writers import write_dif_file, write_xml_file, write_all_dif_files, UntisFileNumber
 
 # Write the students dif-file:
 write_dif_file(UntisFileNumber.STUDENTEN, 
@@ -25,4 +25,12 @@ write_xml_file("path/to/Untis.exe", "path/to/Untis-file")
                
 # Write all dif-files:
 write_all_dif_files("path/to/Untis.exe", "path/to/Untis-file")
+```
+
+Index of columns in dif-files:
+
+```
+from untis_dif_file_writer.dif_files_columns import UntisFileKlassen
+
+print(UntisFileKlassen.MIN_STUNDEN_PRO_TAG.value) 
 ```
