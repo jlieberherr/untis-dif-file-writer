@@ -1,6 +1,17 @@
 from enum import Enum
 
 
+class UntisFileStundenplan(Enum):
+    UNTERRICHT_NUMMER = 1
+    KLASSE = 2
+    LEHRER = 3
+    FACH = 4
+    RAUM = 5
+    TAG = 6
+    STUNDE = 7
+    STUNDENLAENGE = 8
+
+
 class UntisFileKlassen(Enum):
     """
     Enum for the columns of the Klasse Untis-DIF-file (GPU003.TXT).
