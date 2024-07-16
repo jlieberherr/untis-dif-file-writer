@@ -2,16 +2,16 @@
 
 [[package]]
 name = "start-end-logging"
-version = "0.1.3"
+version = "0.1.5"
 description = "A very simple logging library that logs the start and end of a process step and, in particular, indicates the elapsed time."
 optional = false
-python-versions = ">=2.7"
+python-versions = ">=3.8"
 files = [
-    {file = "start_end_logging-0.1.3-py2.py3-none-any.whl", hash = "sha256:069f8dd1f64920fdb759a0e08857eb338996ee27cae9817742d06ced07781991"},
-    {file = "start_end_logging-0.1.3.tar.gz", hash = "sha256:90e47d0bdf61a24bfaa62cc5768cb3b61c810e14a666c455f6138c19f3765f46"},
+    {file = "start_end_logging-0.1.5-py3-none-any.whl", hash = "sha256:149fe0587fb610f6dbf7bc5e1c34db746d73f3293fbfbdebdfdf2bafc435de32"},
+    {file = "start_end_logging-0.1.5.tar.gz", hash = "sha256:a6dbe3df6dfc0105308169dc8360050c13d51ee763c17ffafd38768066b2984d"},
 ]
 
 [metadata]
 lock-version = "2.0"
-python-versions = ">=2.7"
-content-hash = "501feef9aa4750f06345a85de8c0e713d6a5e077bc09b210a9a5cb51d349425e"
+python-versions = ">=3.8"
+content-hash = "257ec47c6513db87530cfbd8ff9c44c72fafaa6136e3f30c6d9c9f58576a7c1c"

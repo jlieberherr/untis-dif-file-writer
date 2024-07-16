@@ -2,6 +2,7 @@ import logging
 import os
 import subprocess
 from enum import Enum
+from typing import Union
 
 from start_end_logging.start_end_logging import log_start, log_end
 
@@ -37,7 +38,7 @@ class UntisFileNumber(Enum):
     ANRECHNUNGSGRUENDE = 21
 
 
-def write_dif_file(file_number: UntisFileNumber | int | str, path_untis_exe: str, path_untis_file: str,
+def write_dif_file(file_number: Union[UntisFileNumber, int, str], path_untis_exe: str, path_untis_file: str,
                    path_output_folder: str = "", output_file_name: str = None) -> None:
     """
     Writes a dif-file from Untis.
